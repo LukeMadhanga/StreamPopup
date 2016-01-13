@@ -1,0 +1,38 @@
+.streampopup-container {
+    display: none;
+    position: fixed;
+    width: 80%;
+    max-width: 640px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 0px 20px -2px #999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.streampopup-inner {
+    padding: 20px;
+    background-color: #FFF;
+    max-height: 300px;
+    overflow: auto;
+}
+.streampopup-buttons {
+    background-color: #EEE;
+    padding: 20px;
+}
+.streampopup-button {
+    font-weight: lighter;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #9E9E9E;
+    color: #FFF;
+    border-radius: 2px;
+    margin: 0 5px 0 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.streampopup-loading {
+    height: 26px;
+    background: url(loader.gif) no-repeat 50% 50%;
+}
